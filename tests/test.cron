@@ -1,0 +1,9 @@
+# User-Crontab
+*/5 * * * * /usr/local/bin/backup.sh
+
+# Systemweite Crontab
+*/10 * * * * root /usr/local/bin/rotate-logs.sh
+
+@reboot root /usr/local/bin/startup.sh
+MAILTO=root
+
