@@ -19,15 +19,15 @@ This project provides a custom **Pygments lexer** for highlighting Unix crontab 
 
 ---
 
-# Installation on Ubuntu 22.04
+# Installation on Linux (Ubuntu 22.04)
 
 Follow these steps to install and activate the custom lexer.
 
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/b3-it/pygements-lexer-crontab
-cd pygements-lexer-crontab
+git clone https://github.com/b3-it/pygments-lexer-crontab
+cd pygments-lexer-crontab
 ```
 
 ## 2. (Recommended) Use a Python virtual environment
